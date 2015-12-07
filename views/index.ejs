@@ -21,13 +21,17 @@
 %>
 
 <%
-	for(i=0; i<photos.length; i++){
+	for(i=0; i<1; i++){
 %>
-	<img src="<%=photos[i].name %>">
+	<div id="imageHolder" class="col-md-3">
+		<img src="<%=photos[i].name %>">
+	</div>
 <%
 	};
 %>
 
-
+<footer>
+<% include footer %>	
+</footer>
 </body>
 </html>

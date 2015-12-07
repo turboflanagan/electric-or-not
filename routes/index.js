@@ -18,6 +18,14 @@ router.get('/', function(req, res, next) {
 	//5. Choose a random image from that array and set it to a var
 	//6. res.render the index view and send it the photo
 
+
+
+	//1. Style middle
+	//2. Add buttons
+	//3. Pull from Mongo
+	//4. Pass var to view
+	//5. Display 1 random image
+
 	var serverPhotos = [
 	{name: 'http://chadconway.pbworks.com/f/1253765817/news-electriccar1.jpg'},
 	{name: 'https://c2.staticflickr.com/2/1307/4700132636_cd67861c4b_b.jpg'}
