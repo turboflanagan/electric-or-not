@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
+
+<% include head %>
+
 <body>
-This is the body...
+
+<header>
+<% include header %>
+</header>
+
+<p>This is the body...</p>
 
 <%= "print me" %>
 
@@ -13,6 +16,14 @@ This is the body...
 	if(name == 'Peter'){
 %>
 		<h1>Peter</h1>
+<%
+	};
+%>
+
+<%
+	for(i=0; i<photos.length; i++){
+%>
+	<img src="<%=photos[i].name %>">
 <%
 	};
 %>
