@@ -21,4 +21,15 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/standings', function(req, res, next){
+	//1. get ALL the photos
+	//2. Sort them by hightse likes
+	//3. res.render the standings view and pass it the sorted photo array
+	res.render('index', {title: 'Standings'});
+
+});
+
+router.post('*', function(req, res, next){
+	//this will run for all posted pages
+});
 module.exports = router;
