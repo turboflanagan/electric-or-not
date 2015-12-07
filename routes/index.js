@@ -27,8 +27,26 @@ router.get('/', function(req, res, next) {
 	//5. Display 1 random image
 
 	var serverPhotos = [
-	{name: 'http://chadconway.pbworks.com/f/1253765817/news-electriccar1.jpg'},
-	{name: 'https://c2.staticflickr.com/2/1307/4700132636_cd67861c4b_b.jpg'}
+	{name: 'images/1.jpeg'},
+	{name: 'images/2.jpeg'},
+	{name: 'images/3.jpeg'},
+	{name: 'images/4.jpeg'},
+	{name: 'images/5.jpeg'},
+	{name: 'images/6.jpeg'},
+	{name: 'images/7.jpeg'},
+	{name: 'images/8.jpeg'},
+	{name: 'images/9.jpeg'},
+	{name: 'images/10.jpeg'},
+	{name: 'images/11.jpeg'},
+	{name: 'images/12.jpeg'},
+	{name: 'images/13.jpeg'},
+	{name: 'images/14.jpeg'},
+	{name: 'images/15.jpeg'},
+	{name: 'images/16.jpeg'},
+	{name: 'images/17.jpeg'},
+	{name: 'images/18.jpeg'},
+	{name: 'images/19.jpeg'},
+	{name: 'images/20.jpeg'},
 	];
 
   res.render('index', { photos: serverPhotos });
