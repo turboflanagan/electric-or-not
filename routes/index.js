@@ -15,10 +15,10 @@ router.get('/', function(req, res, next) {
 				// console.log(allPhotos);
 				console.log(userResult);
 
-					for(i=0; i<userResult.length; i++){
+					// for(i=0; i<userResult.length; i++){
 						
-					}
-				}
+					// }
+				
 			});
 
 
